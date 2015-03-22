@@ -12,7 +12,7 @@ function x = prox_matrix(v, lambda, prox_f)
 %
 %   For example,
 %
-%     prox_matrix(V,lambda,prox_l1)
+%     prox_matrix(V,lambda,@prox_l1)
 %
 %   evaluates the proximal operator of the nuclear norm at V
 %   (i.e., the singular value thresholding operator).
